@@ -1,0 +1,56 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(57, 243, 104);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 70%;
+}
+
+button[type="button"] {
+  width: 25%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#task-list {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#task-list li {
+  list-style-type: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
